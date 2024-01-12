@@ -122,7 +122,7 @@ if __name__ == "__main__":
             
             client = TelegramClient(sessions[i].replace('\n', ''), api_id, api_hash)
 
-            channelname = input('Enter the group name for inviting (without "@")')
+            channelname = input('Enter the group name for inviting (without "@")\nEnter: ')
 
             for limit in range(20):
                 try:
